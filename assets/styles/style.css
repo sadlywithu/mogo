@@ -1,0 +1,788 @@
+@import url("/assets/styles/font.css");
+*{
+    font-family: "Corm";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/assets/img/background.jpg);
+}
+header{
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;  
+    /* height: 120px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-size: cover;
+}
+
+
+.section-navigation{
+    text-transform: uppercase;
+    color: #988f87;
+    
+}
+.section-navigation .links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 24px;
+    color: #988f87;
+}
+
+.link1 a{
+    color: #988f87;
+}
+.link-2{
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    font-size: 24px;
+    color: #988f87;
+
+}
+.link-2 a{
+    margin-left: 15px;
+    color: #988f87;
+}
+
+.logo{
+    font-size: 24px;
+    color: #988f87;
+}
+
+
+body{
+    background-image: url(../img/background.jpg);
+}
+
+.section-kartinochki .container{
+    width: 1200px;
+    height: 800px;
+    
+   
+}
+.section-kartinochki{
+    margin-right: 540px;
+   
+}
+
+.section-kartinochki p{
+  font-size: 80px;
+  color: rgb(97, 82, 72);
+  font-family:"Corm" ;
+  position: relative;
+  bottom: 310px;
+  left: 290px;
+  z-index: 1000;
+}
+
+.section-kartinochki .container .first-pic{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    left: 265px;     
+}
+.section-kartinochki .second-pictures{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 100px;
+}
+.section-kartinochki .second-pictures .i2{
+    position: relative;
+    bottom: 60px;
+    right: 210px; 
+}
+
+.section-kartinochki .second-pictures .i3{
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    height: 700px;
+    width: 600px;
+    
+}
+.section-kartinochki .sign{
+    position: relative;
+    right: 360px;
+    bottom: 20px;
+    opacity: 0.25;
+}
+
+.love{
+    font-style: italic;
+    color: #988f87;
+}
+
+.logo-brown{
+    font-style: normal;
+    color: #474340;
+}
+
+.lover{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.lover .ris{
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+    opacity: 1;
+}
+
+.swap{
+    margin-top: 150px;
+    width: 100%;
+}
+
+
+.collection-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 1900px;
+
+}
+.line{
+    background-color: #988f87;
+    width: 50px;
+    height: 1px;
+    margin-right: 15px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card{
+    width: 470px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.card img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+.card button{
+    background: none;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    border: 1px solid #988f87;
+    border-radius: 30px;
+   
+}
+
+.cards .card .titletwo{
+    display: flex;
+    justify-content: space-between;
+}
+.collection-line .line{
+    display: flex;
+    justify-content: start;
+    height: 2px;
+    width: 60px;
+    font-size: 2px; 
+    background-color: rgb(97, 82, 72); 
+    margin-top: 5px;
+}
+
+.collection-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+    
+}
+
+.collection-line h3{
+    display: flex;
+    font-size: 20px;
+    color: rgb(97, 82, 72);   
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-story{
+  
+    height: 1000px;   
+}
+.section-story img{
+    height: 110px;
+    width: 110px;
+    border-radius:50%;
+}
+.section-story .author{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 50px;
+}
+.section-story .author p{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.section-story .photka .milashka{
+    display: flex;
+    text-decoration:underline;
+    font-family: "Montserrat";
+    gap: 10px;
+}
+.section-story .mila p{
+    font-size: 15px;
+}
+.section-story .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.section-story .line{
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 60px;
+    font-size: 2px; 
+    background-color: rgb(97, 82, 72); 
+    margin-top: 15px;
+}
+.section-story .hline{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+}
+.section-story h3{
+    display: flex;
+   font-size: 20px;
+   color: rgb(97, 82, 72);   
+   font-weight: 500;
+   text-transform: uppercase;
+}
+ .section-story .minimal{
+    font-family: "Corm"; 
+    position: relative;
+    bottom: 50px;
+    color: rgb(97, 82, 72); 
+    width: 1100px;
+}
+.section-story .minimal p{
+    width: 720px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.section-story .minimal h2{
+   font-family: "Corm"; 
+   font-size: 50px;
+   color: rgb(97, 82, 72); 
+   font-weight: 500;
+   margin-bottom: 20px;
+   
+}
+.section-story .container{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    top: 100px;
+}
+.section-story .oilrose .two{
+    height: 200px;
+    width: 200px;
+    border-radius: 0%;
+    position: relative;
+    top: 400px;
+    right: 250px;
+
+}
+.section-story .oilrose .one{
+    height: 550px;
+    width: 400px;
+    border-radius: 0%;  
+    position: relative;
+    right: 250px; 
+    bottom: 40px;
+}
+.section-story .oilrose {
+    display: flex;  
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    right: 350px;
+}
+.section-story .oilrose .three{
+    opacity: 2; 
+    height: 600px;
+    width: 200px;
+    position: relative;
+    left: 550px;
+    }
+
+
+.otzivi{
+    display: flex;
+}
+
+.opisanie h3{
+    color: #988f87;
+    font-size: 30px;
+    text-align: justify;
+    font-style: italic;
+    /* font-family: ; */
+}
+
+.zhachok-opisanie{
+    width: calc(100%/3);
+    padding: 15px;
+}
+
+.zhachok{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.zakazat{
+    margin-bottom: 50px;
+}
+
+.zakazat{
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+}
+.zakazat{
+    position: relative;
+}
+
+.woman{
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   background-image: url(../img/13.jpg);
+   background-size: cover;
+   padding: 40px;
+   font-size: 25px;
+   text-align: center;
+   color: aliceblue;
+
+   
+}
+
+.woman h2{
+    font-family: "Monsterrat", sans-serif;
+    font-weight: lighter;
+    font-size: 34px;
+}
+
+.zakazat .text{
+    position: absolute;
+    z-index: -1;
+    font-size: 110px;
+    width: 200%;
+    margin-left: -40%;
+    text-align: center;
+    color: #988f87;
+    margin-bottom: -26%;
+    
+
+}
+.woman button{
+    width: 190px;
+    height:55px;
+    margin: 20px;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid;
+    color: white;
+    font-family: "Monsterrat", sans-serif;
+}
+
+
+.section-inst{
+    margin-top: 300px;
+}
+
+.subinsta{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.inst{
+    display: flex;
+    justify-content: center;
+
+}
+.photki{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.photki img{
+    margin: 5px;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.insta h3{
+    font-family: "Monsterrat";
+    text-transform: uppercase;
+    color: #988f87;
+    font-family: "Monsterrat", sans-serif;
+
+}
+.insta .cubmilo{
+    font-family: "Monsterrat";
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Monsterrat", sans-serif;
+}
+
+
+.insta img{
+    margin-right: 15px;
+}
+.insta .cubmilo{
+    margin-left: 15px;
+}
+
+.registr{
+    background-image: url(../img/19.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.registr h2{
+    font-family: "Corm"; 
+   font-size: 50px;
+   color: rgb(97, 82, 72); 
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+
+.withlove{
+    width: 50%;
+}
+.withlove h2{
+    margin-bottom: 10px;
+}
+
+.withlove h3{
+    color: #988f87;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.nametelephone{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+
+
+.nametelephone input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom:50px;
+}
+
+.nametelephone .knopka button{
+    width: 190px;
+    height:55px;
+    margin: 20px;
+    border-radius: 50px;
+    background: none;
+    border: 1px solid;
+}
+
+.nametelephone .knopka{
+    display: flex;
+    justify-content: center;
+}
+.registr .container{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+.contacts{
+    background-image: url(../img/20.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+ 
+}
+
+.allcontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.ruchnrab{
+    display: flex;
+    flex-direction: column;
+    color: rgb(182, 169, 134);
+    font-family: "Corm"; 
+    width: 25%;
+
+}
+.ruchnrab h2{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.ruchnrab h3{
+    font-family: "Monsterrat";
+    margin-top: 15px;
+}
+
+.adres{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(182, 169, 134);
+}
+.adres h3{
+    margin-top: 15px;
+}
+
+.icon img{
+    margin-right: 15px;
+    justify-content: space-between;
+    
+    color: rgb(182, 169, 134);
+
+}
+@media(max-width:1200px){
+    .container{
+        width: 1024px;
+        padding: 20px;
+
+    }
+    .section-navigation a{
+        font-size: 20px;
+    }
+    .section-navigation{
+        width: 900px;
+        padding: 20px;
+    }
+    .section-kartinochki {
+        width: 1024px;
+        
+    }
+    
+    .section-kartinochki .second-pictures{
+        width: 900px;
+    }
+    .lover{
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        margin-left: 250px;
+        
+    }
+    .lover .ris img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .zakazat .text{
+        font-size: 90px;
+    }
+    .swap{
+        align-items: center;
+        justify-content: center;
+
+    }
+    .opisanie{
+        padding: 10px;
+    }
+    .woman{
+        margin-top: 24px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .photki img{
+        width: 190px;
+    }
+    .withlove{
+        padding: 20px;
+    }
+    .nametelephone{
+        margin-top: 120px;
+    }
+  
+    
+    
+
+    
+
+}
+@media(max-width:1024px){
+    .container{
+        width: 720px;
+        padding: 20px;
+    }
+    .card img{
+        width: 200px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    .opisanie h3{
+        font-size: 20px;
+    }
+    .containerzakazat .text h2{
+        font-size: 90px;
+    }
+    .containerzakazat .text{
+        padding: 10px;
+    }
+    .photki img{
+        width: 125px;
+    }
+    .withlove h2{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:720px){
+    .container{
+        width: 98%;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .link1{
+        flex-direction: column;
+        text-align: center;
+        line-height: 45px;
+    }
+    .swap{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+        
+        
+    }
+    .card{
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        
+    }
+    .card .titletwo{
+        flex-direction:column;
+        text-align: center;
+    }
+    .section-story{
+        flex-direction: column;
+    }
+    .photki img{
+        width: 110px;
+    }
+    .woman{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       height: 300px;
+       
+    }
+    .zakazat{
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+}
+@media(max-width:480px){
+    .container{
+        width: 98%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .section-story .container {
+        
+        width: 50%;
+    }
+}
+
